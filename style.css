@@ -1,17 +1,54 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: rgb(85, 178, 178);
+    text-align: center;
+}
+header{
+    font-size: x-large;
+    text-align: center;
+    background-color: #3c8c9a;
+    color: wheat;
+    padding: 20px; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+main{
+    padding: 50px;
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    & input{
+        font-size: x-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       position: relative;
+       color:black ;
+    }
+    & select{
+        font-size: x-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+}
+main.div.botton{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+}
 
 footer {
     background-color: #3c8c9a;
-    color: #ffffff;
+    color:blanchedalmond;
     text-align:center;
     padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    
     & p{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size:20px;

@@ -3,14 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>APP</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        
+        APP  DE TAREAS
     </header>
-    <main></main>
+    <main>
+        <div>
+                <form action="Introducir tarea">
+                        <div>
+                        <label for="tarea">Introducir tarea</label>
+                        <input type="text" id="tarea" name="tarea">
+                        </div>
+                </form>
+                    <p>Frecuencia de repeticion </p>
+                <select  id="selectTarea">
+                    <option id="seleccion" value="Selecciona una tarea"></option>
+                    <option value="diario">Diario</option>
+                    <option value="semanal">Semanal</option>
+                    <option value="mensual">Mensual</option>
+                    <option value="semestral">Semestral</option>
+                    <option value="anual">Anual</option>
+
+                </select>
+                <input id="botton" type="submit" value="filtrar">
+        </div>
+    </main>
     
     <footer>
         
