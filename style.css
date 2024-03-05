@@ -35,11 +35,17 @@ main{
     }
     
 }
-main.div.botton{
+main.div.button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: smaller;
 }
+main.div.row{
+    margin-top: 150px;
+}
 
+table, tr, th{
+    border: 2px solid black;
+}
 footer {
     background-color: #3c8c9a;
     color:blanchedalmond;
@@ -54,6 +60,9 @@ footer {
         font-size:20px;
         
     }
+}
+.diario{
+    background-color:red ;
 }
 
 

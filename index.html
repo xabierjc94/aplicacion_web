@@ -11,25 +11,55 @@
         APP  DE TAREAS
     </header>
     <main>
-        <div>
-                <form action="Introducir tarea">
+       <section class="container">
+            <div id="tareaHoy">    
+                <form action="ntroducirTarea" id="introducirTarea">
                         <div>
                         <label for="tarea">Introducir tarea</label>
-                        <input type="text" id="tarea" name="tarea">
+                        <input type="text" id="tarea" name="tarea" placeholder="Nueva Tarea">
                         </div>
-                </form>
+               
+            
                     <p>Frecuencia de repeticion </p>
-                <select  id="selectTarea">
-                    <option id="seleccion" value="Selecciona una tarea"></option>
-                    <option value="diario">Diario</option>
+                <select class="tarea" id="selectTarea">
+                    <option id="seleccion">Selecciona una frecuencia</option>
+                    <option value="urgente">Urgente</option>
+                    <option value="diaria">Diaria</option>
                     <option value="semanal">Semanal</option>
-                    <option value="mensual">Mensual</option>
-                    <option value="semestral">Semestral</option>
-                    <option value="anual">Anual</option>
-
                 </select>
-                <input id="botton" type="submit" value="filtrar">
-        </div>
+                <button class="guardar">Guardar</button>
+                </form>
+
+            </div>
+      
+    
+            <div class="row">
+                <div class="columna">
+                    <input type="text" id="buscadorTarea" placeholder="buscar una tarea">
+                </div>
+                <div class="columna">
+                    <select name="" id="frecuenciaFiltro">
+                        <option id="seleccion" value="Selecciona la frecuencia"></option>
+                    <option value="urgente">Urgente</option>
+                    <option value="diaria">Diaria</option>
+                    <option value="semanal">Semanal</option>
+                    </select>
+                </div>
+             </div>
+        </section>
+        <section class="container" id="tareasAlmacenadas">
+            <table class="table">
+                <tr>
+                    <th>Nombre de la Tarea</th>
+                    <th>Frecuencia</th>
+                    <th>Que hacer con la tarea</th>
+                </tr>
+            </table>
+            <tbody>
+                <button class="borrar">borrar</button>
+            </tbody>
+
+        </section>
     </main>
     
     <footer>
